@@ -1,0 +1,25 @@
+table#picking_table {
+    th {
+        padding: 0.5rem;
+        text-align: center;
+    }
+    td {
+        padding: 0.5rem;
+    }
+}
+
+div#batch_info_fields {
+    table {
+        thead {
+            border: none;
+            height: 0;
+        }
+        th#label_col {
+            width: 10%;
+        }
+        td:nth-child(odd) {
+            white-space: nowrap;
+            font-weight: bold;
+        }
+    }
+}
