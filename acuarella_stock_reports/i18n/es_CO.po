@@ -1,0 +1,254 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acuarella_stock_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-02 18:12+0000\n"
+"PO-Revision-Date: 2025-04-02 18:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "# Packages"
+msgstr "# Paquetes"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "$1500"
+msgstr ""
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "+5290123001231"
+msgstr ""
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__address_with_coll
+msgid "Address with collection"
+msgstr "Domicilios con recaudo"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__address_wo_coll
+msgid "Address without collection"
+msgstr "Domicilios sin recaudo"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.external_layout_standard_acuarella
+msgid "Batch Sequence"
+msgstr ""
+
+#. module: acuarella_stock_reports
+#: model:ir.model,name:acuarella_stock_reports.model_stock_picking_batch
+msgid "Batch Transfer"
+msgstr "Traslado por lote"
+
+#. module: acuarella_stock_reports
+#: model:ir.actions.report,name:acuarella_stock_reports.action_report_picking_batch_acuarella
+msgid "Batch Transfer Acuarella"
+msgstr "Traslado por lote Acuarella"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__blue_logistic
+msgid "Blue Logistic"
+msgstr "Blue Logistic"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking__charge
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Charge"
+msgstr "Cobro"
+
+#. module: acuarella_stock_reports
+#: model:ir.model,name:acuarella_stock_reports.model_res_partner
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking__partner_address
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Contact Address"
+msgstr "Dirección de contacto"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking__partner_phone
+msgid "Contact Phone"
+msgstr "Teléfono"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__coord_with_coll
+msgid "Coordination with collection"
+msgstr "Coordinadora con recaudo"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__coord_wo_coll
+msgid "Coordination without collection"
+msgstr "Coordinadora sin recaudo"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Created by:"
+msgstr "Elaborado por:"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking__currency_id
+msgid "Currency"
+msgstr "Divisa"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__deliver_with_coll
+msgid "Deliver with collection"
+msgstr "Envía con recaudo"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Delivery Address:"
+msgstr "Dirección de entrega:"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__deliver_wo_coll
+msgid "Delivery without collection"
+msgstr "Envía sin recaudo"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Demo"
+msgstr ""
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Demo Address"
+msgstr "Dirección demo"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Document Ref"
+msgstr "Referencia"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__dropship
+msgid "Dropshipping"
+msgstr "Dropshipping"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__high_traffic
+msgid "High traffic counter"
+msgstr "Mostrador Poblado"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__interr_wo_coll
+msgid "Interrapidisimo without collection"
+msgstr "Interrapidisimo sin recaudo"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__interr_with_coll
+msgid "Interrapidismo with collection"
+msgstr "Interrapidisimo con recaudo"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_sale_order__logistic_route
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking__sale_logistic_route
+msgid "Logistic Route"
+msgstr "Ruta Logística"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Logistic Route:"
+msgstr "Ruta Logística:"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,help:acuarella_stock_reports.field_stock_picking_batch__sale_logistic_routes
+msgid ""
+"Logistic routes from all sale orders related to each transfer separated by "
+"comma"
+msgstr ""
+"Rutas logisticas de todas las ordenes de venta relacionadas a las "
+"transferencias separadas por coma"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking__package_num
+msgid "Package Num"
+msgstr "Número de Paquetes"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__pickup
+msgid "Pick-up"
+msgstr "Recoge"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "REF001"
+msgstr ""
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__returns
+msgid "Returns"
+msgstr "Devoluciones"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "S001"
+msgstr ""
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking_batch__sale_logistic_routes
+msgid "Sale Logistic Routes"
+msgstr "Rutas Logisticas de Venta"
+
+#. module: acuarella_stock_reports
+#: model:ir.model,name:acuarella_stock_reports.model_sale_order
+msgid "Sales Order"
+msgstr "Orden de venta"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__san_lucas_cod
+msgid "San Lucas Store Cash on delivery"
+msgstr "Tienda San Lucas Contraentrega"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__san_lucas_wo_coll
+msgid "San Lucas Store without collection"
+msgstr "Tienda San lucas sin recaudo"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__san_lucas_delivery
+msgid "San Lucas's Stores Delivery"
+msgstr "Entregado de tienda San Lucas"
+
+#. module: acuarella_stock_reports
+#: model_terms:ir.ui.view,arch_db:acuarella_stock_reports.report_picking_batch_acuarella
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__servientrega
+msgid "Servientrega"
+msgstr "Servientrega"
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields,field_description:acuarella_stock_reports.field_stock_picking_batch__supervisor
+msgid "Supervisor"
+msgstr "Encargado"
+
+#. module: acuarella_stock_reports
+#: model:ir.model,name:acuarella_stock_reports.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir "
+
+#. module: acuarella_stock_reports
+#: model:ir.model.fields.selection,name:acuarella_stock_reports.selection__sale_order__logistic_route__vanaga
+msgid "Vanaga"
+msgstr "Vanaga"
