@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="report_picking_batch_acuarella" inherit_id="stock_picking_batch.report_picking_batch" primary="True">
+        <xpath expr="//t[@t-set='locations']" position="after">
+            <t t-set="is_batch_acuarella" t-value="True" />
+        </xpath>
         <!-- Modification of picking table top info -->
         <xpath expr="//div[hasclass('page')]/div[hasclass('d-flex')]" position="after">
             <div id="batch_info_fields">
                 <table class="table table-borderless">
                     <thead>
                         <tr>
-                            <th colspan="2" id="label_col"/>
+                            <th id="label_col"/>
+                            <th />
                         </tr>
                     </thead>
                     <tbody>
