@@ -16,6 +16,9 @@
         <field name="model">stock.picking</field>
         <field name="inherit_id" ref="stock_picking_batch.stock_picking_view_batch_tree_ref" />
         <field name="arch" type="xml">
+            <xpath expr="//list" position="attributes">
+                <attribute name="editable">bottom</attribute>
+            </xpath>
             <xpath expr="//field[@name='sale_logistic_route']" position="attributes">
                 <attribute name="column_invisible">1</attribute>
             </xpath>
