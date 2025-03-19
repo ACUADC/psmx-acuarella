@@ -9,4 +9,4 @@ class StockPicking(models.Model):
     package_num = fields.Float()
     partner_address = fields.Char("Contact Address", related="partner_id.contact_address")
     partner_phone = fields.Char("Contact Phone", related="partner_id.phone")
-    sale_logistic_route = fields.Char(related="sale_id.logistic_route")
+    sale_logistic_route = fields.Selection(related="sale_id.logistic_route")

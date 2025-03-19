@@ -12,6 +12,7 @@ class StockPickingBatch(models.Model):
 
     @api.depends('picking_ids.sale_logistic_route')
     def _compute_sale_logistic_routes(self):
+        logistic_routes = dict(self.env['stock.picking']._fields['sale_logistic_route']._description_selection(self.env))
         for batch in self:
-            logistic_routes = set(pick.sale_logistic_route for pick in batch.picking_ids if pick.sale_logistic_route)
-            batch.sale_logistic_routes = ",".join(logistic_routes)
+            logistic_routes = set(logistic_routes[pick.sale_logistic_route] for pick in batch.picking_ids if pick.sale_logistic_route)
+            batch.sale_logistic_routes = ", ".join(logistic_routes)

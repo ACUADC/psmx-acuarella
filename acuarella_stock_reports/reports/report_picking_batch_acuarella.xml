@@ -40,7 +40,7 @@
                     <tr>
                         <th id="th_sequence">Sequence</th>
                         <th id="th_contact">Contact</th>
-                        <th id="th_source">Source Document</th>
+                        <th id="th_ref">Document Ref</th>
                         <th id="th_address">Contact Address</th>
                         <th id="th_phone">Phone</th>
                         <th id="th_package_num"># Packages</th>
@@ -56,7 +56,8 @@
                             <span t-field="pick.partner_id">Demo</span>
                         </td>
                         <td>
-                            <span t-field="pick.origin">S001</span>
+                            <div t-if="pick.origin"><span t-field="pick.origin">S001</span></div>
+                            <div t-if="pick.carrier_tracking_ref"><span t-field="pick.carrier_tracking_ref">REF001</span></div>
                         </td>
                         <td>
                             <span t-field="pick.partner_address">Demo Address</span>

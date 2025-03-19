@@ -23,6 +23,7 @@
                 <attribute name="column_invisible">1</attribute>
             </xpath>
             <xpath expr="//field[@name='origin']" position="after">
+                <field name="carrier_tracking_ref" />
                 <field name="partner_address" />
                 <field name="partner_phone" />
                 <field name="package_num" />
