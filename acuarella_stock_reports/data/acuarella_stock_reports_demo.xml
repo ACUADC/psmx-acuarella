@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<odoo>
-    <function model="ir.ui.view" name="write" eval="[ref('acuarella_stock_reports.stock_picking_view_batch_tree_ref'), {'active': False}]"/>
-</odoo>
